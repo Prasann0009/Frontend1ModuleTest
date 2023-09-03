@@ -1,0 +1,453 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#navbarSupportedContent > ul > li {
+  color: #4f4f4f;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.16px;
+  margin-inline: 10px;
+}
+.navbar-button {
+  color: #2f80ed;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+header {
+  background-color: #2f80ed;
+}
+header > p {
+  color: #fff;
+  font-family: ABeeZee;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+}
+.main {
+  background-color: #fffefeff;
+}
+.hero-left {
+  flex: 3;
+  width: 700px;
+  height: 300px;
+  margin-inline: auto;
+}
+.cta-form {
+  flex: 2;
+  width: fit-content;
+  height: 496px;
+  margin-inline: auto;
+}
+.hero-left-text1 {
+  color: #2b2f34;
+  font-family: ABeeZee;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: -0.75px;
+}
+.hero-left-text2 {
+  color: #595959;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.36px;
+}
+.hero-left-features {
+  display: flex;
+  width: 100%;   
+  height: fit-content;
+  padding: 15px 20px;
+  align-items: flex-end;
+  gap: 34px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+}
+.hero-left-hsalary > div,
+.hero-left-companies > div,
+.hero-left-placement > div,
+.hero-left-asalary > div {
+  margin-inline: 5px;
+}
+.hero-left-hsalary-icon,
+.hero-left-company-icon,
+.hero-left-placement-icon,
+.hero-left-asalary-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin: 0px;
+}
+.hero-left-hsalaryt1,
+.hero-left-companyt1,
+.hero-left-placement1,
+.hero-left-asalaryt1 {
+  color: #2b2f34;
+  font-family: ABeeZee;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0px;
+}
+.hero-left-hsalaryt2,
+.hero-left-companyt2,
+.hero-left-placement2,
+.hero-left-asalaryt2 {
+  color: #4f4f4f;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155%;
+  letter-spacing: 0.12px;
+  margin: 0px;
+  padding: 0px;
+}
+.hero-left-bottom {
+  display: inline-flex;
+  padding: 10px 20px;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+  width: fit-content;
+}
+.cta-form {
+  display: inline-flex;
+  padding: 28px 24px 32px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+}
+.cta-form-text1 {
+  color: #2b2f34;
+  text-align: center;
+  font-family: ABeeZee;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.48px;
+}
+.cta-form-text2 {
+  color: #818d9d;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.cta-entername,
+.cta-phonenumber {
+  display: flex;
+  width: 366px;
+  padding: 14px 6px 14px 10px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fafafa;
+}
+.cta-entername > input,
+.cta-phonenumber > input {
+  width: 100%;
+  border: none;
+}
+.cta-form > button {
+  display: flex;
+  width: 367px;
+  padding: 14px 6px 14px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  border-radius: 8px;
+  background: linear-gradient(277deg, #992fed 0%, #2f80ed 100%);
+}
+.courses {
+  background-color: #ecf8ff;
+  margin-top: 20px;
+  position: relative;
+  margin-block: 10px;
+  padding-block: 15px;
+}
+.courses-text1 {
+  text-align: center;
+  font-family: ABeeZee;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.courses-text2 {
+  color: #2f80ed;
+  text-align: center;
+  font-family: ABeeZee;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 54px */
+  letter-spacing: -0.54px;
+}
+.cards {
+  gap: 21px;
+}
+
+.saplingcard,
+.pioneercard {
+  width: fit-content;
+  height: fit-content;
+  padding-inline: 10px;
+  padding-block: 20px;
+  
+  border-radius: 9px;
+  border: 2px solid #2f80ed;
+  background: #fff;
+}
+.sapling-bordertext
+{   
+    position: absolute;
+    top: 104px;
+    padding: 6px 15px;
+border-radius: 7px;
+border: 2px solid #02060b;
+background:#2F80ED;
+height: fit-content;
+color:#FFF;
+font-family: ABeeZee;
+font-size: 14px;
+font-style: italic;
+font-weight: 400;
+text-transform: uppercase;
+
+}
+.card-text1 {
+  color: #2b2f34;
+  font-family: ABeeZee;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+.card-text2 {
+  border-radius: 7px;
+  background: #e0f3ff;
+  padding: 6px 15px;
+  gap: 18px;
+  color: #1d78b0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-inline: 5px;
+}
+.card-text3 {
+  color: #565656;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.card-table {
+  width: 426px;
+}
+.card-table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-table-row > p:first-child {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+.card-table-row > p:last-child 
+{
+    color: #2B2F34;
+font-family: ABeeZee;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
+.card-button1
+{
+    display: flex;
+width: 203px;
+padding: 14px 6px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+border: 1px solid #2F80ED;
+background: #FFF;
+margin-inline: 5px;
+}
+.card-button2
+{
+    display: flex;
+width: 210px;
+padding: 14px 6px 14px 16px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+border-radius: 8px;
+background: #2F80ED;
+margin-inline: 5px;
+}
+.company-text1
+{
+font-family: ABeeZee;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.28px;
+text-transform: uppercase;
+}
+.company-text2
+{
+    color:#2B2F34;
+text-align: center;
+font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: -0.63px;
+}
+.company-text2>span
+{
+    color:#2F80ED;
+font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: -0.63px;
+}
+.company-text3
+{
+ color: #595959;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; 
+letter-spacing: 0.36px;
+}
+.companies{
+    margin-block: 20px;
+}
+.companies-images
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 15px;
+}
+.companies-images>img{
+    margin-block: 10px;
+}
+.cta-button
+{
+    display: flex;
+width: 276px;
+padding: 14px 6px 14px 16px;
+justify-content: center;
+align-items: center;
+gap: 2px;
+border-radius: 8px;
+background: #2F80ED;
+}
+.studentwall{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.studentwall-text1
+{
+    color:#2B2F34;
+text-align: center;
+font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 150%; 
+letter-spacing: -0.63px;
+}
+.studentwall-text2
+{
+    color: #595959;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 0.36px;
+}
+.studentwall-cards
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    width: 80%;
+}
+.studentwall-cards-div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    height: fit-content;
+    padding: 8px 10px;
+    border-radius: 10px;
+border: 2px solid #D7D7D7;
+background: #FFF;
+box-shadow: 5px 9px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.personimage
+{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+.stu-name,.stu-position
+{
+    margin: 0px;
+}
+@media screen and (max-width:768px)
+{
+    .cards,.main,.companies{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+    .companies-images
+    {
+        grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    }
+    .studentwall-cards
+    {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
